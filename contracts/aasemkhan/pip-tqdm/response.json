@@ -1,0 +1,12 @@
+{
+  "key": "aasemkhan",
+  "contractcode": "pip-tqdm",
+  "agent": "pip_binary_v01.py",
+  "status": "done",
+  "parameters": {
+    "platform": "win_amd64",
+    "python-version": "3.12",
+    "package": "tqdm"
+  },
+  "output": "Package tqdm has been downloaded and zipped successfully"
+}

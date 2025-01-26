@@ -1,0 +1,12 @@
+{
+  "key": "asimkhan",
+  "contractcode": "pip-blabla",
+  "agent": "pip_binary_v01.py",
+  "status": "error",
+  "parameters": {
+    "platform": "win_amd64",
+    "python-version": "3.12",
+    "package": "blabla"
+  },
+  "error": "Command '['pip', 'download', '--platform', 'win_amd64', '--only-binary=:all:', '--python-version=3.12', '-d', 'contracts/asimkhan/pip-blabla/blabla', 'blabla']' returned non-zero exit status 1."
+}

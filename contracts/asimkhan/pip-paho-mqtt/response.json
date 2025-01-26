@@ -1,0 +1,12 @@
+{
+  "key": "asimkhan",
+  "contractcode": "pip-paho-mqtt",
+  "agent": "pip_binary_v01.py",
+  "status": "done",
+  "parameters": {
+    "platform": "win_amd64",
+    "python-version": "3.12",
+    "package": "paho-mqtt"
+  },
+  "output": "Package paho-mqtt has been downloaded and zipped successfully"
+}

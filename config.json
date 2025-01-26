@@ -1,0 +1,14 @@
+{
+  "broker": {
+    "mqttbroker": "broker.hivemq.com",
+    "port": 1883
+  },
+  "contractor": {
+    "key": "aasemkhan",
+    "email": "muhammadaasem@gmail.com",
+    "topics": {
+      "subscription": "request",
+      "publishing": "response"
+    }
+  }
+} 
