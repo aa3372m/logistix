@@ -1,29 +1,6 @@
-#!/bin/bash
-
-# Check for existing SSH keys
-echo "Checking for existing SSH keys..."
-ls -al ~/.ssh
-
-# Generate a new SSH key
-echo "Generating a new SSH key..."
-ssh-keygen -t ed25519 -C "aa3372m@gmail.com"
-
-# Start the SSH agent
-echo "Starting the SSH agent..."
-eval "$(ssh-agent -s)"
-
-# Add the SSH key to the SSH agent
-echo "Adding the SSH key to the SSH agent..."
-ssh-add ~/.ssh/id_ed25519
-
-# Copy the SSH key to the clipboard
-echo "Copying the SSH key to the clipboard..."
-pbcopy < ~/.ssh/id_ed25519.pub
-
-echo "SSH key generated and copied to clipboard. Please add it to your GitHub account."
-
-# Test SSH connection to GitHub
-echo "Testing SSH connection to GitHub..."
-ssh -T git@github.com
-
-echo "If you see a success message, your SSH setup is complete."
+git config --global user.name "aa3372m"
+git config --global user.email "aa3372m@gmail.com"
+git remote set-url origin git@github.com:aa3372m/logistix.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
